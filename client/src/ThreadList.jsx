@@ -42,7 +42,7 @@ const ThreadList = () => {
   )
 }
 
-export default ThreadList
+export default ThreadList;
 
 
 
