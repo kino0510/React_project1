@@ -1,0 +1,49 @@
+.thread-list {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  h1 {
+    color: #333;
+    text-align: center;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .thread-item {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 15px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .thread-item:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .thread-item h2 {
+    margin: 0;
+    color: #444;
+    font-size: 18px;
+  }
+  
+  .loading,
+  .error {
+    text-align: center;
+    color: #666;
+    font-size: 18px;
+    margin-top: 50px;
+  }
+  
+  .error {
+    color: #d32f2f;
+  }
+  
+  
